@@ -13,8 +13,6 @@ input.forEach(value => {
     let min = value.slice(0, minIndex)
     let max = value.slice(minIndex + 1, maxIndex)
     let letter = value.slice(maxIndex + 1, passwordIndex - 2)
-
-    let included = 0
     let indexes = ['lmao']
 
     for (let i = 0; i < password.length; i++) {
