@@ -16,9 +16,6 @@ input.forEach(value => {
     let indexes = ['lmao']
 
     for (let i = 0; i < password.length; i++) {
-        if (password[i] == letter) {
-            included++
-        }
         indexes.push(password[i])
     }
     if (indexes[min] == letter || indexes[max] == letter) {
