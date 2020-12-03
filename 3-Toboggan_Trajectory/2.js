@@ -11,7 +11,6 @@ function findTrees(right, down) {
     let x_axis = 0
     let trees = 0
     for (let i = 0; i < input.length - 1; i += down) {
-        if (i + down > input.length) return trees
         x_axis = (x_axis + right) % lengthOfLine
         if (input[i + down][x_axis] == '#') {
             trees++
